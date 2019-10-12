@@ -1,0 +1,24 @@
+#include &lt;stdio.h&gt; void arithmetic(int, int);
+#include <stdio.h>
+
+void arithmetic(int, int);
+
+int main()
+{
+  int a, b;
+  printf("Enter first number: ");
+  scanf("%d", &a);
+  printf("Enter second number: ");
+  scanf("%d",&b);
+  arithmetic(a, b);
+  return (0);
+}
+
+void arithmetic(int x, int y)
+{
+  void sum(void)
+  {
+    printf("Sum: %d", (x + y));
+  }
+  sum();
+}
