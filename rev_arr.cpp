@@ -7,8 +7,9 @@
 using namespace std; 
 
 int * fun(int * ar,int m)	/* Problem with 'm' compiler is not able to evaluueate it */ 
-{	
-	static int arr[5]; // ## Giving Error Here Because Static Variables can only intialized by constant 
+{
+	int *arr = (int*)malloc(sizeof(int)*m);
+	//static int arr[5]; // ## Giving Error Here Because Static Variables can only intialized by constant 
 	int j=0;
 	for(int i=m-1;i>=0;i--) 
 	{
