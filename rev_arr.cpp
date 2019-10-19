@@ -1,6 +1,6 @@
 /*
-	As Static can be only intialized by constants size would always be problem 
-
+	As Static can be only intialized by constants size would always be problem, So passing size of array is
+	only solution in such scenarios.  
 */
 
 #include <iostream> 
