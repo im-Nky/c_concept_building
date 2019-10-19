@@ -1,6 +1,12 @@
 /*
 	As Static can be only intialized by constants size would always be problem, So passing size of array is
-	only solution in such scenarios.  
+	only solution in such scenarios. 
+	
+	Returning new Reverse Array from function. 3 Methods.
+	1. Using Static but intialization is issue.
+		(can also be done using local array but gives Warning)
+	2. Dynamic Memory Allocation
+	3. Using Structure 
 */
 
 #include <iostream> 
