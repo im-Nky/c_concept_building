@@ -15,6 +15,8 @@ int main()
 	about this conversion being deprecated.*/
 	
 	const char * name = "Nitin Kumar Yadav";
+	/* Without this const there will be warning in code compilation*/
+	
 	const int i=4;
 	int j=3;
 	int *k=(int *)&i;
